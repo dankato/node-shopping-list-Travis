@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: YLvfS6h4ZLgA3IIDNqoEFYbN43ul+MBsTZvJ3pyjy2j7UZAegoVPsOS82fv8YvfdLQuxwGgazKiYQYRmH45fcTEYNh0QlePtJlepq1MTXyLyA/szY/hvyZmzFleB6eJITF0Ls55H3sHG8tiYHFgdBsDzxHNZ+f7OrgGMkplbRGD+0uiTS3ATLQWlrXSChh5aLjBzCNFf+iAs9P7nAgwuLkbo8z/k1agzqDl0k/83Xvjp+g/KoC3MFd0/ZX177J+C/4uJThkOO8ihI7w6fLMRUrJ6laBTNq7pNGAS407eMMkI+UkAhTqMIAwunalt5K2ctMeZQUXQaAg6RF6YKQFuRR5j+GYS72Q9otWjmalE5rX+f8Hvq2L2zv96E3ycjp3bnH2+tlq/6Xu74p0G8Gzi6tYbQ077SYVSSq3B9tIYor0M5a3ZC504A2TFYvK7LJd4WDnOCL7KOh0+gHWG5uGJ/gKpXFoWLWq1JksN0lGZWS8ZbFmFYCQuZd8q0iw1QXipTYC2xW+HjTlhK75iUScZDjzdC9Il/IDhapdmznM98njxqh+wcJisnqt2O1Two+VTE6cPDWPcfj6m/+vmOnjdikUIdoKWRb8thtv76HceWRH15aEVGWi/I3eNdE+TCtvLG43ZcXKFIKed8jm/EG2JP5soOpoAvvIKP32x02aUKXY=
+  app: morning-hamlet-20823.herokuapp.com
+
+  on:
+    repo: dankato/node-shopping-list-Travis
